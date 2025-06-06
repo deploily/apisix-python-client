@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "apisix-python-client"
+version = "0.1.0"
+description = "A Python client library for Apache APISIX Admin and Control APIs"
+authors = [
+    { name="amine bouhaik", email="aminebouhaik527@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+
+dependencies = [
+    "requests>=2.25.0",
+]
+
